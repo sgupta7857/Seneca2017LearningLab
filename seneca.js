@@ -4,6 +4,7 @@ exports.isValidEmail = function (email) {
   }
   return false;
 };
+
 exports.formatSenecaEmail = function (name) {
   return name.concat('@myseneca.ca');
 };

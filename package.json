@@ -1,0 +1,25 @@
+{
+  "name": "lab7",
+  "version": "1.0.0",
+  "description": "learning lab",
+  "main": "seneca.js",
+  "scripts": {
+    "lint": "node_modules/.bin/eslint*.js", 
+    "test": "npm run -s lint" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sgupta7857/Seneca2017LearningLab.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sgupta7857/Seneca2017LearningLab/issues"
+  },
+  "homepage": "https://github.com/sgupta7857/Seneca2017LearningLab#readme",
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb-base": "^11.1.3",
+    "eslint-plugin-import": "^2.2.0"
+  }
+}

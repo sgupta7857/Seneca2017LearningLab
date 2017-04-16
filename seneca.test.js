@@ -21,7 +21,7 @@ describe('seneca.isValidEmail()', () => {
   });
  test('returns false for email containing leading whitespace', () => {
 
-    var str = '  sgupta44@myseneca.ca';
+    const str = ' sgupta44@myseneca.ca';
     expect(seneca.isValidEmail(str)).toBe(false);
   });
     test('returns true for old professor email', () => {

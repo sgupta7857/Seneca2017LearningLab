@@ -15,6 +15,15 @@ var port = process.env.PORT || 3000;
 app.get('/', function (req, res) {
   res.send('My Server is working!');
 });
+// GET http://localhost:3000/healthcheck
+app.get('/healthcheck', function (req, res) {
+  var uptime = process.uptime(); 
+  res.json({
+    uptime: uptime
+  })
+
+});
+
 
 // GET http://localhost:3000/validate/someone@myseneca.ca
 app.get('/validate/:email', function (req, res) {
